@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VCA_CONFIGURATION>
+  <global>
+    <auto-boot>1</auto-boot>
+    <debug-enabled>0</debug-enabled>
+    <link-up-timeout-ms>2000</link-up-timeout-ms>
+    <handshake-irq-timeout-ms>30000</handshake-irq-timeout-ms>
+    <alloc-timeout-ms>100</alloc-timeout-ms>
+    <cmd-timeout-ms>1000</cmd-timeout-ms>
+    <mac-write-timeout-ms>1000</mac-write-timeout-ms>
+    <default-daemon-script/>
+    <wait-cmd-timeout-s>60</wait-cmd-timeout-s>
+    <wait-bios-cmd-timeout-s>120</wait-bios-cmd-timeout-s>
+    <wait-bios-cmd-flashing-s>1200</wait-bios-cmd-flashing-s>
+    <ICMP-ping-inverval-s>1</ICMP-ping-inverval-s>
+    <ICMP-response-timeout-s>10</ICMP-response-timeout-s>
+  </global>
+  <card id="0">
+    <cpu id="0">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_00_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.1.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.1.254</gateway>
+      <host-ip>172.31.1.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="1">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_01_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.2.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.2.254</gateway>
+      <host-ip>172.31.2.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="2">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_02_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.3.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.3.254</gateway>
+      <host-ip>172.31.3.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+  </card>
+  <card id="1">
+    <cpu id="0">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_10_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.4.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.4.254</gateway>
+      <host-ip>172.31.4.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="1">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_11_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.5.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.5.254</gateway>
+      <host-ip>172.31.5.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="2">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_12_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.6.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.6.254</gateway>
+      <host-ip>172.31.6.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+  </card>
+  <card id="2">
+    <cpu id="0">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_20_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.7.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.7.254</gateway>
+      <host-ip>172.31.7.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="1">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_21_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.8.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.8.254</gateway>
+      <host-ip>172.31.8.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="2">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_22_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.9.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.9.254</gateway>
+      <host-ip>172.31.9.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+  </card>
+  <card id="3">
+    <cpu id="0">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_30_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.10.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.10.254</gateway>
+      <host-ip>172.31.10.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="1">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_31_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.11.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.11.254</gateway>
+      <host-ip>172.31.11.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="2">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_32_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.12.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.12.254</gateway>
+      <host-ip>172.31.12.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+  </card>
+  <card id="4">
+    <cpu id="0">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_40_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.13.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.13.254</gateway>
+      <host-ip>172.31.13.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="1">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_41_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.14.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.14.254</gateway>
+      <host-ip>172.31.14.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="2">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_42_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.15.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.15.254</gateway>
+      <host-ip>172.31.15.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+  </card>
+  <card id="5">
+    <cpu id="0">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_50_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.16.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.16.254</gateway>
+      <host-ip>172.31.16.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="1">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_51_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.17.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.17.254</gateway>
+      <host-ip>172.31.17.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="2">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_52_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.18.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.18.254</gateway>
+      <host-ip>172.31.18.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+  </card>
+  <card id="6">
+    <cpu id="0">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_60_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.19.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.19.254</gateway>
+      <host-ip>172.31.19.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="1">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_61_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.20.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.20.254</gateway>
+      <host-ip>172.31.20.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="2">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_62_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.21.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.21.254</gateway>
+      <host-ip>172.31.21.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+  </card>
+  <card id="7">
+    <cpu id="0">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_70_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.22.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.22.254</gateway>
+      <host-ip>172.31.22.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="1">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_71_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.23.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.23.254</gateway>
+      <host-ip>172.31.23.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+    <cpu id="2">
+      <os-image/>
+      <script>/etc/vca_config.d/vca_72_default.sh</script>
+      <daemon-script/>
+      <ip>172.31.24.1</ip>
+      <mask>24</mask>
+      <gateway>172.31.24.254</gateway>
+      <host-ip>172.31.24.254</host-ip>
+      <host-mask>24</host-mask>
+      <cpu-max-freq-non-turbo>0</cpu-max-freq-non-turbo>
+    </cpu>
+  </card>
+</VCA_CONFIGURATION>

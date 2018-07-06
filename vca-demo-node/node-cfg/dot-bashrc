@@ -1,0 +1,9 @@
+# .bashrc
+
+export LIBVA_DRIVERS_PATH=/opt/intel/mediasdk/lib64
+export LIBVA_DRIVER_NAME=iHD
+
+## For PS1
+export PS1='[\u@\h \w]# '
+
+export PATH=/VCA/okapi:$PATH

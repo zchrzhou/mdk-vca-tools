@@ -1,0 +1,3 @@
+[submodule "perf-script"]
+           path = perf-script
+           url  = https://github.com/zchrzhou/mdk-perf-script.git

@@ -1,0 +1,5 @@
+[localbase]
+name=localbase
+baseurl=file:///var/www/html/centos71
+gpgcheck=0
+

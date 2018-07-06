@@ -1,0 +1,4 @@
+*.pyc
+parfile
+*.out
+*.csv
